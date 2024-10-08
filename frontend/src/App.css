@@ -1,0 +1,110 @@
+.App {
+font-family:'Times New Roman', Times, serif ;
+
+}
+
+
+Button{
+  background: linear-gradient(90deg, #a11242 0%, #411d0e 100%);
+}
+
+.cdbtn:hover {
+  background-color: white;
+  /* Add any other styles you want to apply on hover */
+}
+
+.card-title{
+color:brown;
+font-family:'Times New Roman', Times, serif ;
+padding:7% auto;
+width:auto;
+border-radius:1rem;
+background:#f5f5f5;
+box-shadow:inset -1em -.5em rgba(0,.05), inset
+1em.5em rgba(0,.05),
+0 0 1em rgba(.05,.05,.1);
+}
+.card-text,.navbar-brand{
+color:brown;
+font-family:'Times New Roman', Times, serif ;
+margin-top:2%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.xx{
+	color: #f5f5f5;
+  background-color: #010103;
+  border-bottom: 2px solid yellow;
+}
+
+.storebanner{
+  background-image: url('https://previews.123rf.com/images/mackoflower/mackoflower2103/mackoflower210300117/165222310-traditional-indian-foods-arranged-as-collage-of-the-cuisine.jpg');
+  background-position: center center;
+  height: 90vh;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(34, 33, 33, 0.6);
+  padding-left: 25px;
+  padding-top: 150px;
+}
+
+.storebannerdata{
+  
+  font-family: sans-serif;
+  text-align: left;
+  width: 500px;
+}
+
+.store1{
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.store2{
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: 18px;
+  padding-bottom: 25px;
+  color: yellow;
+}
+
+.storebtn{
+  background-color: yellow;
+  color: whitesmoke;
+  padding: 5px 45px;
+}
